@@ -26,7 +26,6 @@ class Artist
 
   def self.create(name)
     artist = self.new(name)
-    @@all << self
     artist
   end
   
