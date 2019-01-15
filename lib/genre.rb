@@ -26,7 +26,6 @@ extend Concerns::Findable
 
   def self.create(name)
     genre = self.new(name)
-    #@@all << self
     genre
   end
   
